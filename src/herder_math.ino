@@ -13,6 +13,10 @@ int HerderAdd(int num1, int num2)
     return num1 + num2;
 }
 
+int HerderPower(int num)
+{
+    return num*num;
+}
 
 void setup()
 {
@@ -23,9 +27,13 @@ void loop()
 {
     int num1 = 3;
     int num2 = 4;
+	int num3 = 19;
 
     Serial.print("HerderAdd: ");
     Serial.println(HerderAdd(num1, num2));
+	
+	Serial.print("HerderPower: ");
+    Serial.println(HerderPower(num3));
 
     Serial.println("");
     delay(1000);
