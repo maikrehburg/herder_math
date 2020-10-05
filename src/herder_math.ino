@@ -13,6 +13,10 @@ int HerderAdd(int num1, int num2)
     return num1 + num2;
 }
 
+int HerderPower(int num)
+{//quadriert die angebene Zahl
+    return num*num;
+}
 // Subtrahiert zwei Zahlen vom Typ Integer miteinander und gibt einen Integer zurueck
 int HerderSub(int num1, int num2)
 {
@@ -34,9 +38,13 @@ void loop()
 {
     int num1 = 3;
     int num2 = 4;
+	int num3 = 19;
 
     Serial.print("HerderAdd: ");
     Serial.println(HerderAdd(num1, num2));
+	
+	Serial.print("HerderPower: ");
+    Serial.println(HerderPower(num3));
 
     Serial.print("HerderSub: ");
     Serial.println(HerderSub(num1, num2));
