@@ -19,7 +19,7 @@ int HerderSub(int num1, int num2)
     return num1 - num2;
 }
 
-// Verdoppelt eine Zahl vom Typ Integer und gibt sie als Integer zurueck
+// Verdoppelt eine Zahl vom Typ Integer und gibt sie als Integer zurueck. Sie ist gerade.
 int HerderDup(int num1)
 {
     return num1 * 2;
