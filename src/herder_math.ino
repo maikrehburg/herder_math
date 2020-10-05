@@ -12,6 +12,9 @@ int HerderAdd(int num1, int num2)
 {
     return num1 + num2;
 }
+int HerderMultiplikation(int num1, int num2)
+{
+    return num1 * num2;
 
 
 void setup()
@@ -26,6 +29,9 @@ void loop()
 
     Serial.print("HerderAdd: ");
     Serial.println(HerderAdd(num1, num2));
+    Serial.print("HerderMultiplikation: ");
+    Serial.println(HerderMultiplikation(num1, num2));
+    
 
     Serial.println("");
     delay(1000);
