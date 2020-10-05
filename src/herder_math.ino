@@ -8,9 +8,9 @@
 
 
 // Addiert zwei Zahlen vom Typ Integer miteinander und gibt einen Integer zurueck
-int HerderAdd(int num1, int num2)
+int HerderAdd(int num1, int num2, int num3)
 {
-    return num1 + num2;
+    return num1 + num2 + num3;
 }
 
 
