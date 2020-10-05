@@ -14,7 +14,7 @@ int HerderAdd(int num1, int num2)
 }
 
 int HerderPower(int num)
-{
+{//quadriert die angebene Zahl
     return num*num;
 }
 
