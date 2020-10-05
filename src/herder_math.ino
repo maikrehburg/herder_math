@@ -55,6 +55,9 @@ void loop()
     Serial.print("HerderDup: ");
     Serial.println(HerderDup(num1));
 
+    Serial.print("HerderMultiplikation: ");
+    Serial.println(HerderMultiplikation(num1,num2));
+
     Serial.println("");
     delay(1000);
 }
